@@ -1,0 +1,12 @@
+.Maininferior {
+  display: flex;
+  justify-content: center;
+}
+
+.ImgMainInferior {
+  width: 212px;
+  height: 40px;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: 55px;
+}
