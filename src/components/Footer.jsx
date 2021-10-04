@@ -5,17 +5,16 @@ const PieDePagina = () => {
   return (
     <footer>
       <div>
-        <h5 className="TextoFooter">
-          Todos los derechos reservados 2003-2021. República Argentina. INCAA
-        </h5>
-        <h5 className="TextoFooter">
+        <h6 className="TextoFooter">
+          Todos los derechos reservados 2003-2021. República Argentina. INCAA{" "}
+          <br />
           Lima 319; Código Postal: C1073AAG, CABA; República Argentina.
-        </h5>
+        </h6>
       </div>
       <div>
         <ul className="ImgFooterul">
           <li>
-            <a href="">
+            <a href="http://cine.ar/">
               <img
                 className="ImgFooter"
                 src="http://cine.ar/img/logo-cinear.svg"
@@ -24,7 +23,7 @@ const PieDePagina = () => {
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="https://www.arsat.com.ar/">
               <img
                 className="ImgFooter"
                 src="http://cine.ar/img/logo-arsat.svg"
@@ -33,7 +32,7 @@ const PieDePagina = () => {
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="http://www.incaa.gob.ar/">
               <img src="http://cine.ar/img/logo-incaa.svg" alt="" />
             </a>
           </li>
